@@ -41,42 +41,73 @@ This page displays a list of the student’s hobbies and interests.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Coomkies24/lab2-portfolio.git
+   git clone https://github.com/your-username/your-repository-name.git
    ```
 
 2. Navigate to the project directory:
 
+   ```
+   C:\GitHub
+   ```
+4. Make sure the full path looks like:
+
+   ```
+   C:\GitHub\lab2-portfolio
+   ```
+5. Click **Clone**.
+
+---
+
+### Step 3: Open the Project in Visual Studio Code
+
+1. After cloning, click **Open in Visual Studio Code** in GitHub Desktop.
+2. Visual Studio Code will open the project automatically.
+
+---
+
+### Step 4: Open the Terminal in VS Code
+
+1. In Visual Studio Code, open the terminal by:
+
+   * Pressing **Ctrl + Shift + `**, or
+   * Clicking the **three dots (⋯)** in the top-left → **Terminal** → **New Terminal**
+2. Make sure the terminal path is correct:
+
+   ```
+   C:\GitHub\lab2-portfolio
+   ```
+3. If it’s not correct, type:
+
    ```bash
-   cd your-repository-name
+   cd C:\GitHub\lab2-portfolio
    ```
 
-3. Install project dependencies:
+   Then press **Enter**.
 
-   ```bash
-   composer install
-   ```
+---
 
-4. Create the environment file:
+### Step 5: Run the Laravel Development Server
 
-   ```bash
-   cp .env.example .env
-   ```
+In the terminal, type:
 
-5. Generate the application key:
+```bash
+php artisan serve
+```
 
-   ```bash
-   php artisan key:generate
-   ```
+You should see this message:
 
-6. Run the Laravel development server:
+```
+Server running on [http://127.0.0.1:8000].
+```
 
-   ```bash
-   php artisan serve
-   ```
+---
 
-7. Open your browser and visit:
+### Step 6: Open the Web Application
+
+1. Hold the **Ctrl** key.
+2. Click on the link:
 
    ```
    http://127.0.0.1:8000
    ```
-
+3. The portfolio web application should now open in your browser.
