@@ -3,7 +3,7 @@
 
 ## Project Description
 This project is a simple multi-page portfolio web application developed using the Laravel framework.  
-It was created for Laboratory 2 to demonstrate the basic use of Laravel routing, controllers, and Blade templates.  
+It was created for Laboratory 3 to demonstrate the basic use of Laravel routing, controllers, and Blade templates.  
 Each page is handled by its own controller and rendered using Blade views.
 
 ---
