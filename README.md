@@ -41,7 +41,7 @@ This page displays a list of the student’s hobbies and interests.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/Coomkies24/lab2-portfolio.git
    ```
 
 2. Navigate to the project directory:
