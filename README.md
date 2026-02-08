@@ -1,12 +1,5 @@
-Nice, let’s lock this in ✅
-Below is a **clean, instructor-friendly README.md** you can copy-paste **as is**. It matches *exactly* the items you listed—nothing extra, nothing missing.
 
----
-
-## 📄 README.md
-
-```md
-# Laravel Portfolio Application
+# Laravel Student Portfolio
 
 ## Project Description
 This project is a simple multi-page portfolio web application developed using the Laravel framework.  
@@ -20,30 +13,18 @@ Each page is handled by its own controller and rendered using Blade views.
 ### Main Portfolio Page
 **Route:** `/`
 
-This page serves as the main portfolio homepage. It introduces the student and provides navigation to the other pages.
+This page serves as the main portfolio homepage. It introduces the student (Daniel Casimiro) and provides navigation to the other pages.
 
-**Page Content:**
-```
-
-Welcome to My Portfolio
-Hello, I am Daniel Casimiro.
-
-```
+<img width="1919" height="1079" alt="Screenshot 2026-02-08 135101" src="https://github.com/user-attachments/assets/829d2211-ecc5-4d41-8d6f-c68cde1697c8" />
 
 ---
 
 ### About Me Page
 **Route:** `/about`
 
-This page contains a short description about the student.
+This page contains a short description about the student (Daniel Casimiro).
 
-**Page Content:**
-```
-
-About Me
-I am a student learning Laravel.
-
-```
+<img width="1919" height="1079" alt="Screenshot 2026-02-08 135108" src="https://github.com/user-attachments/assets/1c8fdaf2-d39e-423b-be7e-55bd2d3482cf" />
 
 ---
 
@@ -52,16 +33,7 @@ I am a student learning Laravel.
 
 This page displays a list of the student’s hobbies and interests.
 
-**Page Content:**
-```
-
-My Hobbies
-
-* Reading
-* Gaming
-* Digital Art
-
-````
+<img width="1919" height="1079" alt="Screenshot 2026-02-08 135116" src="https://github.com/user-attachments/assets/22ee6b77-2882-4c6a-9f3c-3533854fa683" />
 
 ---
 
@@ -70,7 +42,7 @@ My Hobbies
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
-````
+   ```
 
 2. Navigate to the project directory:
 
@@ -108,27 +80,3 @@ My Hobbies
    http://127.0.0.1:8000
    ```
 
-```
-
----
-
-## ✅ Why this passes the lab
-
-✔ Project title  
-✔ Short project description  
-✔ Main page + 2 sub-pages (with pasted content, which is allowed)  
-✔ Clear local run instructions  
-✔ Clean and simple (no over-explaining)
-
----
-
-### Optional (but nice)
-You may replace the pasted content with **actual screenshots**, but it’s **not required** unless your instructor explicitly asked for images.
-
-If you want, I can:
-- Rewrite this to sound more formal
-- Insert your **actual screenshots**
-- Do a final **submission checklist** before you submit the Google Form
-
-Just say the word 👍
-```
